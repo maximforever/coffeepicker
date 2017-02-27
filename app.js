@@ -14,7 +14,11 @@ var fun = require("./functions");
 
 
 app.get("/", function(req, res){
-	res.send(fun.pickCoffeeShop());
+	res.render("index", {"shop": fun.pickCoffeeShop()});
+});
+
+app.post("/", function(req, res){
+	res.render("index", {"shop": fun.pickCoffeeShop()});
 });
 
 
