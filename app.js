@@ -12,6 +12,11 @@ app.set("view engine", "ejs");
 
 var fun = require("./functions");
 
+app.use(express.static(__dirname + '/'));
+
+
+/*routes */
+
 
 app.get("/", function(req, res){
 	res.render("index", {"shop": fun.pickCoffeeShop()});
