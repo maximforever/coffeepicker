@@ -2,14 +2,20 @@ body{
 	text-align: center;
 }
 
+p { 
+	font-size: 8vh; 
+}
+
 .btn{
 	border: none;
 	color: white;
 	border-radius: none;
+	font-size: 6vh; 
 }
 
 .shop{
 	background: orange;
 	color: white;
-	padding: 10px;
+	font-size: 10vh; 
+	padding: 9px;
 }

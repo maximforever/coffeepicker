@@ -10,7 +10,9 @@
 		<div class = "container">
 			<div class = "col-xs-12">
 				<% if (typeof shop !== "undefined") { %>
-					<h3>Today, you're going to <span class = "shop"><%= shop %></span></h3>
+					<p>Today, you're going to </p>
+					<br>
+					<p><span class = "shop"><%= shop %></span></p>
 				<% } %>
 				<br><br>
 				<form action="/" method="POST">
