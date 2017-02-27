@@ -1,0 +1,28 @@
+{
+  "name": "coffeepicker",
+  "version": "1.0.0",
+  "description": "a quick app to pick a coffee place near the codecademy office",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximforever/coffeepicker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximforever/coffeepicker/issues"
+  },
+  "homepage": "https://github.com/maximforever/coffeepicker#readme"
+}
