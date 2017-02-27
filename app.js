@@ -15,9 +15,11 @@ var fun = require("./functions");
 
 app.get("/", function(req, res){
 	res.send(fun.pickCoffeeShop());
-})
+});
+
+
 
 // this starts the server on port 3000
-http.createServer(app).listen(3000, function(){
+http.createServer(app).listen((process.env.PORT || 3000), function(){
 	console.log("We've started the app on port 3000!");
 })
