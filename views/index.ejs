@@ -8,16 +8,20 @@
 	</head>
 	<body>
 		<div class = "container">
-			<div class = "col-xs-12">
-				<% if (typeof shop !== "undefined") { %>
-					<p>Today, you're going to </p>
-					<br>
-					<p><span class = "shop"><%= shop %></span></p>
-				<% } %>
-				<br><br>
-				<form action="/" method="POST">
-					<button type="submit" class = "btn btn-info btn-lg">That sucks</button>
-				</form>
+			<div class = "main">
+				<div class = "col-xs-12">
+					<% if (typeof shop !== "undefined") { %>
+						<p class = "intro">Today, you're going to </p>
+						<br>
+						<div class = "coffeeshop">
+							<p><span class = "shop"><%= shop %></span></p>
+						</div>
+					<% } %>
+					<br><br>
+					<form action="/" method="POST">
+						<button type="submit" class = "btn btn-info btn-lg">That sucks</button>
+					</form>
+				</div>
 			</div>
 		</div>
 	</body>
